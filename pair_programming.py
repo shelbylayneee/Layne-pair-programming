@@ -14,6 +14,6 @@ theta = float(input("Enter angle in radians (theta): "))
 x,y = polar_to_cartesian(r, theta)
 
 # Prints answer to 2 decimal points
-print("Cartesian coordinates:")
+print("Cartesian coordinates:")  #looks good, but I would add a space after the : to make easier to read
 print(f"x = {x: .2f}")
 print(f"y = {y: .2f}")
